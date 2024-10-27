@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 250px;
+    height: 490px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: grid;
+}
+
+.head {
+    width: 250px;
+    height: 100px;
+    background-color: #4c71d7;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 33px 0px 0px 20px;
+}
+
+.header p {
+    margin: 0px;
+}
+
+.header {
+    margin: 35px 0px 0px 20px;
+}
+
+.small {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.559);
+}
+
+.jess {
+    color: white;
+}
+
+.icons .icon {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin: 10px 0px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.rightpart {
+    display: grid;
+    grid-template-columns: 40px 120px;
+    margin-left: 40px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4c71d7;
+    color: white;
+    margin-left: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.x {
+    position: relative;
+    color: rgba(0, 0, 0, 0.434);
+    font-size: 28px;
+    left: 210px;
+    bottom: 78px;
+}
